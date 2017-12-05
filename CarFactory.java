@@ -11,7 +11,7 @@ public class CarFactory {
     int getRandomInt() {
 
         Random random = new Random();
-        randomInt = random.nextInt(2);
+        randomInt = random.nextInt(3);
         return randomInt;
     }
 
